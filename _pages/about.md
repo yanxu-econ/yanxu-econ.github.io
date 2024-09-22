@@ -21,7 +21,7 @@ I completed my Ph.D. at Erasmus University Rotterdam and Tinbergen Institute in 
 
 Contact: 5411.0764, Duisenberg Building, Zernike Campus, University of Groningen
 
-[Email](yan.xu@rug.nl): yan.xu[at]rug.nl  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   [Download CV]()
+[Email](yan.xu@rug.nl): yan.xu[at]rug.nl  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   [Download CV](../assets/pdf/YANCV.pdf)
 
 
 <!--
