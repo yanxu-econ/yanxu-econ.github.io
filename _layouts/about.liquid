@@ -56,10 +56,28 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
+    <!-- Selected papers: publications and working papers -->
     {% if page.selected_papers %}
+      {% comment %}  
+      <h2> 
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Publications and Working Papers</a>
+      </h2> 
+      {% endcomment %}  
+      <h2> 
+      Publications and Working Papers
+      </h2> 
+      {% include selected_papers.liquid %}
+    {% endif %}
+
+
+    <!-- Selected papers: in progress -->
+    {% if page.selected_papers %}
+      {% comment %}   <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Work in Progress</a>
+      </h2> 
+      {% endcomment %}  
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      Work in Progress
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
