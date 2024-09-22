@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+nav: false
 subtitle: I am an assistant professor at University of Groningen.
 
 profile:
