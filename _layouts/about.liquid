@@ -71,7 +71,6 @@ layout: default
 
 
     <!-- Selected papers: in progress -->
-{% comment %}
     {% if page.selected_progress_papers %}
       {% comment %}   <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Work in Progress</a>
@@ -82,7 +81,7 @@ layout: default
       </h2>
       {% include selected_progress_papers.liquid %}
     {% endif %}
-{% endcomment %}  
+
 
     <!-- Social -->
     {% if page.social %}
